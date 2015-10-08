@@ -1,0 +1,82 @@
+.hp_title {
+    font-family: Microsoft YaHei,宋体;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.client_daily_word_content {
+    background-color: #f0f0f0;
+    padding: 15px;
+    width: 300px;
+    height: 220px;
+    display: block
+}
+
+.client_daily_words_bar {
+    overflow: hidden
+}
+
+.client_daily_word_en {
+    overflow: hidden;
+    padding-bottom: 10px;
+    font-size: 26px;
+    font-weight: 400
+}
+
+.client_daily_word_en a {
+    color: #06a
+}
+
+.client_daily_word_zh {
+    overflow: hidden;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    font-size: 20px
+}
+
+.client_daily_word_pn {
+    overflow: hidden;
+    width: 100%
+}
+
+.client_daily_word_pn_audio {
+    float: left;
+    padding-left: 10px
+}
+
+.client_daily_word_pn_pn {
+    font-family: Lucida Sans Unicode,sans-serif;
+    float: left;
+    font-size: 14px;
+    margin: 0 0 5px 0;
+    line-height: 20px
+}
+
+.client_aud_o {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-image: url("speaker_normal.png");
+    background-repeat: no-repeat
+}
+
+.client_icon_container {
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+    cursor: pointer
+}
+
+.client_daily_pic_bar {
+    overflow: hidden;
+    width: 100%
+}
+
+.client_daily_pic_item {
+    float: left;
+    width: 80px;
+    height: 80px;
+    margin-right: 1px
+}
+

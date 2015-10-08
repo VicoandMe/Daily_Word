@@ -1,0 +1,27 @@
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="content-type" />
+<title>Daily word</title>
+<link rel="stylesheet" type="text/css" href="daily-word/daily.css"></link>
+
+<script type="text/javascript">
+  function search() {
+    var word = document.getElementById("word").value
+    var frame = document.getElementById("showFrame")
+    frame.src = "./" + word + ".html"
+  }
+</script>
+</head>
+
+<body>
+
+<div class="hp_title">Daily Word Search</div>
+<div class="hp_title">
+  <input id="word" type="text" name="word" />
+  <button type="button" onclick="search()"> search </button>
+</div>
+<iframe id="showFrame" src="./plank.html" class="client_daily_word_content" frameborder=0></iframe>
+
+</body>
+
+<html>
+
